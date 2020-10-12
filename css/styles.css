@@ -189,38 +189,7 @@ body:not(.has-page-skin) #main-header .new-header__logo {
 	left: 0;
 	position: absolute;
 }
-/*
-.pillar-link::after {
-	border-top: 0.25rem solid currentColor;
-	left: 0.0625rem;
-	right: 0;
-	top: -0.25rem;
-	transition: -webkit-transform .3s ease-in-out;
-	transition: transform .3s ease-in-out;
-	transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
-}
 
-/*
-.pillar-link.pillar-link--News:after {
-	border-color:#ff4e36
-}
-
-.pillar-link.pillar-link--Opinion:after {
-	border-color:#ff7f0f
-}
-
-.pillar-link.pillar-link--Sport:after {
-	border-color:#00b2ff
-}
-
-.pillar-link.pillar-link--Culture:after {
-	border-color:#eacca0
-}
-
-.pillar-link.pillar-link--Lifestyle:after {
-	border-color:#ffabdb
-}
-*/
 .content {
 	padding-bottom: 0;
 	padding-top: 0;

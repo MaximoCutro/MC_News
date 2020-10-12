@@ -26,7 +26,7 @@ menu, ol, ul {
 	list-style: none;
 }
 
-.css-b4ojvn {
+.css-main {
 	display: grid;
 	width: 100%;
 	margin-left: 0;
@@ -35,34 +35,34 @@ menu, ol, ul {
 	grid-template-areas: 'title  border  headline     right-column' '.      border  standfirst   right-column' 'lines  border  media        right-column' 'meta   border  media        right-column' 'meta   border  body         right-column' '.      border  .            right-column';
 }
 
-.css-1nupfq9 {
+.css-headline {
 	grid-area: headline;
 }
-.css-krkkhw {
+.css-width {
 	max-width: 620px;
 }
 
-.css-13n7o1j {
+.css-title-padding {
 	padding-top: 3px;
 	padding-bottom: 36px;
 }
 
-.css-rtdfvn {
+.css-h1 {
 	font-family: GH Guardian Headline,Guardian Egyptian Web,Georgia,serif;
 	font-size: 2.125rem;
 	line-height: 1.15;
 	font-weight: 500;
 }
 
-.css-zjgnrw {
+.css-grid-area {
 	grid-area: standfirst;
 }
 
-.css-1ji4n2i {
+.css-width-2 {
 	max-width: 540px;
 }
 
-.css-1ueujop {
+.css-title-font {
 	font-family: GH Guardian Headline,Guardian Egyptian Web,Georgia,serif;
 	font-size: 1.0625rem;
 	line-height: 1.15;
@@ -71,25 +71,25 @@ menu, ol, ul {
 	margin-bottom: 12px;
 }
 
-.css-pn0kqp {
+.css-grid-area-2 {
 	grid-area: media;
 }
 
-.css-1qvfpal {
+.css-min-height {
 	min-height: 1px;
 }
 
-.css-1nfcn93 {
+.css-image-pos {
 	position: relative;
 }
 
-.css-1nfcn93 img {
+.css-image-pos img {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
 }
 
-.css-xe26t6 {
+.css-figcaption {
 	font-family: GuardianTextSans,Guardian Text Sans Web,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
 	font-size: 0.75rem;
 	line-height: 1.5;
@@ -104,17 +104,17 @@ menu, ol, ul {
 	margin-bottom: 6px;
 }
 
-.css-1amgqzt {
+.css-figcaption-tri {
 	fill: #C70000;
 	padding-right: 3px;
 }
 
-.css-1uuhxtj {
+.css-grid-area-3 {
 	grid-area: body;
 	z-index: 2;
 }
 
-.css-sgtam6 {
+.css-flex {
 	-webkit-box-flex: 1;
 	-webkit-flex-grow: 1;
 	-ms-flex-positive: 1;
@@ -122,15 +122,15 @@ menu, ol, ul {
 	z-index: 1;
 }
 
-.css-myhfeo {
+.css-width-3 {
 	width: 620px;
 }
 
-.css-79elbk {
+.css-body-position {
 	position: relative;
 }
 
-.css-38z03z {
+.css-p-font {
 	margin-bottom: 16px;
 	font-family: GuardianTextEgyptian,Guardian Text Egyptian Web,Georgia,serif;
 	font-size: 1.0625rem;
@@ -138,7 +138,7 @@ menu, ol, ul {
 	font-weight: 400;
 }
 
-.css-1ey43xh-straightLines-fourLines-Lines {
+.css-straight-lines {
 	background-image: repeating-linear-gradient(rgb(220, 220, 220), rgb(220, 220, 220) 1px, transparent 1px, transparent 0.25rem);
 	background-repeat: repeat-x;
 	background-position: center top;
@@ -146,11 +146,11 @@ menu, ol, ul {
 	height: calc(1px + 0.75rem);
 }
 
-.css-739uag {
+.css-padding-footer {
 	padding-bottom: 72px;
 }
 
-.css-mkn48k {
+.css-footer-font {
 	font-family: GuardianTextSans,Guardian Text Sans Web,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
 	font-size: 0.75rem;
 	line-height: 1.5;
@@ -159,22 +159,22 @@ menu, ol, ul {
 	color: #999999;
 }
 
-.css-o9b79t {
+.css-ul-ol {
 	list-style: none;
 }
 
-.css-q1ot1l {
+.css-ul-ol-2 {
 	list-style: none;
 	padding-bottom: 12px;
 	margin-bottom: 6px;
 	border-bottom: 1px solid #DCDCDC;
 }
 
-.css-1m6o9vl {
+.css-ul-ol-3 {
 	float: left;
 }
 
-.css-py6pl9 {
+.css-li {
 	margin-right: 5px;
 	display: inline-block;
 	font-family: GH Guardian Headline,Guardian Egyptian Web,Georgia,serif;
@@ -183,7 +183,7 @@ menu, ol, ul {
 	font-weight: 500;
 }
 
-.css-py6pl9 a {
+.css-li a {
 	position: relative;
 	display: block;
 	padding-right: 5px;
@@ -191,7 +191,7 @@ menu, ol, ul {
 	text-decoration: none;
 }
 
-.css-qyoh14 {
+.css-li-2 {
 	margin-right: 5px;
 	display: inline-block;
 	font-family: GuardianTextSans,Guardian Text Sans Web,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
@@ -200,7 +200,7 @@ menu, ol, ul {
 	font-weight: 400;
 }
 
-.css-qyoh14 a {
+.css-li-2 a {
 	position: relative;
 	display: block;
 	padding-right: 5px;
@@ -208,13 +208,13 @@ menu, ol, ul {
 	text-decoration: none;
 }
 
-.css-dlavgv {
+.css-a-red {
 	-webkit-text-decoration: none;
 	text-decoration: none;
 	color: #C70000;
 }
 
-.css-1p59nfv {
+.css-li-3 {
 	margin-right: 5px;
 	display: inline-block;
 	font-family: GuardianTextSans,Guardian Text Sans Web,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
@@ -223,7 +223,7 @@ menu, ol, ul {
 	font-weight: 400;
 }
 
-.css-1p59nfv a {
+.css-li-3 a {
 	position: relative;
 	display: block;
 	padding-right: 5px;
@@ -231,14 +231,14 @@ menu, ol, ul {
 	text-decoration: none;
 }
 
-.css-h50b31 {
+.css-li-4 {
 	padding: 0 3px 6px 0;
 	float: left;
 	min-width: 32px;
 	cursor: pointer;
 }
 
-.css-1adb3ql {
+.css-svg {
 	border: 1px solid #DCDCDC;
 	white-space: nowrap;
 	overflow: hidden;
@@ -255,7 +255,7 @@ menu, ol, ul {
 	fill: #C70000;
 }
 
-.css-1adb3ql svg {
+.css-svg svg {
 	height: 88%;
 	width: 88%;
 	top: 0;
@@ -266,7 +266,7 @@ menu, ol, ul {
 	position: absolute;
 }
 
-.css-6lu7eh {
+.css-reuse-font {
 	font-family: GuardianTextSans,Guardian Text Sans Web,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
 	font-size: 0.75rem;
 	line-height: 1.5;
@@ -276,7 +276,7 @@ menu, ol, ul {
 	float: right;
 }
 
-.css-1u624pm {
+.css-reuse-span {
 	color: #767676;
 	background-color: transparent;
 	border-color: #DCDCDC;
@@ -294,121 +294,10 @@ menu, ol, ul {
 	margin-right: 8;
 }
 
-.css-1m8vknw {
-	position: relative;
-    grid-area: right-column;
-    top: 0;
-    right: 0;
-    z-index: 1;
-}
-
-.css-1laqxr {
-	height: 100%;
-	display: block;
-	flex-basis: 300px;
-	flex-grow: 0;
-	flex-shrink: 0;
-	margin-left: 0px;
-    margin-right: 0px;
-    padding-top: 6px;
-}
-
-.css-9aekbr {
-	position: static;
-	height: 1059px;
-}
-
-.css-12erdcg {
-	display: flex;
-	flex-direction: column;
-	height: calc(100% - 1059px);
-}
-
-.css-1ilyui9 {
-	display: flex;
-	-moz-box-flex: 1;
-	flex-grow: 1;
-}
-
-.css-i9gxme {
-	-moz-box-flex: 1;
-	flex-grow: 1;
-}
-
-.css-5vb4lz {
-	margin-top: 24px;
-	margin-bottom: 24px;
-}
-
-.css-1ey43xh-straightLines-fourLines-Lines {
+.css-straight-lines {
 	background-image: repeating-linear-gradient(rgb(220, 220, 220), rgb(220, 220, 220) 1px, transparent 1px, transparent 0.25rem);
 	background-repeat: repeat-x;
 	background-position: center top;
 	background-size: 1px calc(1px + 0.75rem);
 	height: calc(1px + 0.75rem);
 }
-
-.css-1ghcxof {
-	font-family: GH Guardian Headline, Guardian Egyptian Web, Georgia, serif;
-	font-size: 1.0625rem;
-	line-height: 1.15;
-	font-weight: 700;
-	margin-bottom: 8px;
-}
-
-.css-1jxpk6c {
-	list-style: outside none none;
-	padding-top: 4px;
-	margin-bottom: 12px;
-	border-top: 1px solid rgb(220, 220, 220);
-}
-
-.css-1jxpk6c:first-of-type {
-	padding-top: 0px;
-	border-top: medium none;
-}
-
-.css-183g1ip {
-	text-decoration: none;
-	font-family: GH Guardian Headline, Guardian Egyptian Web, Georgia, serif;
-	font-size: 1.0625rem;
-	line-height: 1.15;
-	font-weight: 500;
-}
-
-.css-183g1ip:link, .css-183g1ip:active {
-	color: rgb(18, 18, 18);
-}
-
-.css-k008qs {
-	display: flex;
-}
-
-.css-14i19t7 {
-	width: 72px;
-	height: 72px;
-	padding-top: 3px;
-	margin-right: 10px;
-}
-
-.css-10bsb45 {
-	background-color: rgb(255, 89, 67);
-	border-radius: 100%;
-	object-fit: cover;
-	height: 100%;
-	width: 100%;
-}
-
-.css-1vf1dqu {
-	width: calc(100% - 82px);
-	display: flex;
-	flex-direction: column;
-}
-
-.css-137dt5q {
-	font-family: GH Guardian Headline, Guardian Egyptian Web, Georgia, serif;
-	font-size: 1.0625rem;
-	line-height: 1.15;
-	font-weight: 500;
-}
-
